@@ -1,0 +1,37 @@
+curl -X "GET" "https://api.spotify.com/v1/search?q=tania bowra&type=artist" -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer  2ea34e52d2f540fa9fa9d8922494b7c0"
+
+
+
+efa508a662b54dc79f68bbbd4e5fe37d
+2ea34e52d2f540fa9fa9d8922494b7c0
+
+
+
+efa508a662b54dc79f68bbbd4e5fe37d:2ea34e52d2f540fa9fa9d8922494b7c0
+
+curl -X "POST" -H "Authorization: Basic efa508a662b54dc79f68bbbd4e5fe37d:2ea34e52d2f540fa9fa9d8922494b7c0" -d grant_type=client_credentials https://accounts.spotify.com/api/token
+
+
+
+curl -X "POST" -H "Authorization: Basic ZWZhNTA4YTY2MmI1NGRjNzlmNjhiYmJkNGU1ZmUzN2Q=:MmVhMzRlNTJkMmY1NDBmYTlmYTlkODkyMjQ5NGI3YzA=" -d grant_type=client_credentials https://accounts.spotify.com/api/token
+
+
+curl -X "POST" -H "Authorization: Basic ZWZhNTA4YTY2MmI1NGRjNzlmNjhiYmJkNGU1ZmUzN2Q6MmVhMzRlNTJkMmY1NDBmYTlmYTlkODkyMjQ5NGI3YzA=" -d grant_type=client_credentials https://accounts.spotify.com/api/token
+
+
+
+{"access_token":"BQCiKJe7qahTNArpq_EFtb3aIGBxF_z0dx0MYos068zl6-BLa4G1EzXOsb_7Kux1mrucM75d3vtU69KVU3g","token_type":"Bearer","expires_in":3600,"scope":""}morty kafka-music $ 
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-14-04#step-2-%E2%80%94-install-java
+
+sudo su - kafka
+
+nohup ~/kafka/bin/kafka-server-start.sh ~/kafka/config/server.properties > ~/kafka/kafka.log 2>&1 &
+
+
+~/kafka/bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic TutorialTopic --from-beginning
+
+~/kafka/bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic countries --from-beginning
+
+~/kafka/bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic nin --from-beginning

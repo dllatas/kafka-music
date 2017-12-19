@@ -1,0 +1,25 @@
+{
+  "name": "kafka-music",
+  "version": "0.0.1",
+  "description": "node + apache kafka + spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "es6",
+    "kafka",
+    "spotify"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.13.1"
+  },
+  "dependencies": {
+    "kafka-node": "^2.3.0",
+    "request": "^2.83.0"
+  }
+}
