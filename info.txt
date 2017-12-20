@@ -35,3 +35,13 @@ nohup ~/kafka/bin/kafka-server-start.sh ~/kafka/config/server.properties > ~/kaf
 ~/kafka/bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic countries --from-beginning
 
 ~/kafka/bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic nin --from-beginning
+
+
+
+https://github.com/spotify/docker-kafka
+https://ngeor.wordpress.com/2017/03/25/kafka-with-docker-a-docker-introduction/
+https://stackoverflow.com/questions/17157721/how-to-get-a-docker-containers-ip-address-from-the-host
+https://gist.github.com/abacaphiliac/f0553548f9c577214d16290c2e751071
+
+
+https://github.com/miguno/kafka-streams-docker
