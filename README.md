@@ -13,8 +13,8 @@ Follow this nice tutorial [DigitalOcean](https://www.digitalocean.com/community/
 
 #### Apache Kafka on Docker but development not Docker
 
-Clone [Spotify kafka docker image] (https://github.com/spotify/docker-kafka). Sadly project seems to be outdated.
-Some issues might arise because of the use of docker-machine, then check [this awesome gist] (https://gist.github.com/abacaphiliac/f0553548f9c577214d16290c2e751071).
+Clone [Spotify kafka docker image](https://github.com/spotify/docker-kafka). Sadly project seems to be outdated.
+Some issues might arise because of the use of docker-machine, then check [this awesome gist](https://gist.github.com/abacaphiliac/f0553548f9c577214d16290c2e751071).
 The branch master runs for this Kafka configuration.
 
 This line of code builds Kafka server and starts it. It must be executed from inside the cloned container.
@@ -52,8 +52,8 @@ curl -X "POST" -H "Authorization: Basic ZWZhNTA4YTY2MmI1NGRjNzlmNjhiYmJkNGU1ZmUz
 ```
 
 ### Nice links 
-- I got inspired by this article to explore with streams, so I 'll call it [the genesis] (https://technology.amis.nl/2017/02/09/nodejs-publish-messages-to-apache-kafka-topic-with-random-delays-to-generate-sample-events-based-on-records-in-csv-file/)
-- [kafka node] (https://github.com/SOHU-Co/kafka-node)
-- [intro to kafka with docker] (https://ngeor.wordpress.com/2017/03/25/kafka-with-docker-a-docker-introduction/)
-- [get docker ip] (https://stackoverflow.com/questions/17157721/how-to-get-a-docker-containers-ip-address-from-the-host)
-- [kafka streams] (https://github.com/miguno/kafka-streams-docker)
+- I got inspired by this article to explore with streams, so I 'll call it [the genesis](https://technology.amis.nl/2017/02/09/nodejs-publish-messages-to-apache-kafka-topic-with-random-delays-to-generate-sample-events-based-on-records-in-csv-file/)
+- [kafka node](https://github.com/SOHU-Co/kafka-node)
+- [intro to kafka with docker](https://ngeor.wordpress.com/2017/03/25/kafka-with-docker-a-docker-introduction/)
+- [get docker ip](https://stackoverflow.com/questions/17157721/how-to-get-a-docker-containers-ip-address-from-the-host)
+- [kafka streams](https://github.com/miguno/kafka-streams-docker)
