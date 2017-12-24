@@ -20,7 +20,7 @@ The branch master runs for this Kafka configuration.
 This line of code builds Kafka server and starts it. It must be executed from inside the cloned container.
 
 ```
-docker run --rm --env ADVERTISED_HOST=localhost -p 2181:2181 -p 9092:9092 --env ADVERTISED_PORT=9092 --name kafka -h kafka spotify/kafka
+docker run --rm --env ADVERTISED_HOST=localhost -p 2182:2182 -p 9093:9093 --env ADVERTISED_PORT=9093 --name kafka -h kafka spotify/kafka
 ```
 
 Start a consumer
