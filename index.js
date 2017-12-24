@@ -1,15 +1,15 @@
 const kafka = require('kafka-node');
 const spotify = require('./spotify');
 
-process.on('unhandledRejection', (reason) => {
+/*process.on('unhandledRejection', (reason) => {
   throw new Error('Unhandled Rejection: '.concat(reason));
-});
+});*/
 
 async function run() {
 
   const payloads = await spotify();
 
-  const client = new kafka.Client('localhost:2181/');
+  const client = new kafka.Client('localhost:2182/');
   
   client.on('error', err => {
     throw err;
@@ -28,7 +28,7 @@ async function run() {
     producer.send(payloads, (err, data) => {
       console.log(err);
       console.log(data);
-      process.exit(0);
+      //process.exit(0);
     });
     
   });
